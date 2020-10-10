@@ -1,15 +1,18 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { Text } from 'react-native-elements'
+
+import Header from '../components/Header'
 import Spacer from '../components/Spacer'
 
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
     return (
-        <View>
+        <>
             <Spacer>
+                <Header />
                 <Text h3 style={styles.homeText}>Home Screen Working</Text>
             </Spacer>
-        </View>
+        </>
     );
 }
 const styles = StyleSheet.create({
