@@ -10,9 +10,7 @@ const HomeScreen = ({ navigation }) => {
     return (
         <>
             <Header headerText={'Albums'} />
-            <Spacer>
-                <AlbumList />
-            </Spacer>
+            <AlbumList />
         </>
     );
 }
