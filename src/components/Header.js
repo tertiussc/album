@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
         shadowColor: '#000',
         shadowOffset: { width: 2, height: 2 },
         shadowOpacity: 0.2,
+        // Android specific fix for shaddow
         elevation: 2,
         position: 'relative'
     },
