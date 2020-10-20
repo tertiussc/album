@@ -23,9 +23,6 @@ HomeScreen.navigationOptions = () => {
 }
 
 const styles = StyleSheet.create({
-    homeText: {
-        color: "dodgerblue",
-    }
 })
 
 export default HomeScreen;
